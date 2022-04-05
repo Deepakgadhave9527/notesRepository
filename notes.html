@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+ <p>
+      01  Normal function :
+                  In Normal function this keywords are belong to window object
+                  this==window //true
+ </p>
+ 02 
+
+    <script>
+            console.log(this);
+
+        function arrow(){
+            console.log(this);
+            console.log(this==window);
+        }
+        arrow()
+    </script>
+</body>
+</html>
